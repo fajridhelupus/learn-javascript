@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+  <title>Tyiping Learning</title>
+  <link rel="stylesheet" type="text/css" href="flatly/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="flatly/bootstrap.min.css">
+</head>
+
+<body class="jumbotron">
+  <header class="bg-success text-center p-3 mb-5">
+    <h1>Latihan Mengetik</h1>
+  </header>
+  <div class="container ">
+
+    <!-- Word & Input -->
+    <div class="row">
+      <div class="col-md-15 mx-auto">
+        <p class="lead text-center">Ketik kata Yang Muncul Dalam
+          <span class="text-success" id="seconds">5</span> Detik:</p>
+        <h2 class="display-2 mb-5 bg-success text-center" id="current-word">hello</h2>
+        <input type="text" class="form-control form-control-lg" placeholder="Start typing..." id="word-input" autofocus>
+        <h2 class="mt-3 bg-danger text-center" id="message"></h2>
+
+        <!-- Time & Score Columns -->
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <h3>Time Left:
+              <span id="time">0</span>
+            </h3>
+          </div>
+          <div class="col-md-6">
+            <h3>Score:
+              <span id="score">0</span>
+            </h3>
+          </div>
+        </div>
+        </div>
+
+        <!-- Instructions -->
+        <div class="row mt-0">
+          <div class="col-md-0">
+            <div class="card card-body bg-info text-white">
+              <h3>Instruksi</h3>
+              <p>
+                <ol>
+                  <li>Ketik kata yang muncul(untuk menambah scor dan waktu permainan).</li>
+                  <li>untuk bermain kembali, cukup ketik kata yang tidak selesai tadi. Score  Mu juga akan diulang dari 0.</li>
+
+                </ol>
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+  <script src="js/main.js"></script>
+</body>
+    <footer>
+      <div class="row copyright blockquote blockquote-footer">
+        <div class="col-md-12 text-center">
+          <p>
+            <small class="block">&copy; Adek Kakak. All Rights Reserved.</small> 
+          </p>
+        </div>
+      </div>
+     </footer> 
+</html>
